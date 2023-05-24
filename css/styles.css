@@ -1,27 +1,43 @@
 .body {
-  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: var(--back-color);
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
-.web {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  color: #4d5ae5;
-  line-height: 1.2;
+.root {
+  --back-color: #ffffff;
+  --primary-font: Roboto, sans-serif;
+  --link-font: Raleway;
+  --logo-color: #4d5ae5;
+  --cool-studio: #2e2f42;
 }
+
 .logo-link {
-  font-family: 'Raleway';
+  font-family: var(--primary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
-  color: #2e2f42;
+  line-height: 1.17;
+  color: var(--logo-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio {
+  font-family: var(--primary-font);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--cool-studio);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .link-nav {
-  font-family: 'Roboto';
+  font-family: var(--link-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,32 +60,33 @@
 }
 
 .button {
+  color: #ffffff;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
 }
 
 .button:hover {
-  color: #4d5ae5;
+  background-color: #404bbf;
 }
 
 .button:focus {
-  color: #4d5ae5;
+  background-color: #404bbf;
+}
+.section {
+  background-color: var(--cool-studio);
 }
 
-.button:active {
-  color: #404bbf;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
+.page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .list {
@@ -86,11 +103,6 @@
 }
 
 .link-mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.5;
@@ -99,14 +111,20 @@
 }
 
 .link-tel {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--cool-studio);
+}
+.footer {
+  background-color: var(--cool-studio);
 }
