@@ -103,12 +103,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-nav);
 }
-.table-tit {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: var(--color-nav);
-}
 
 .table-text {
   font-size: 16px;
@@ -126,6 +120,16 @@ body {
   text-transform: capitalize;
   color: var(--color-nav);
 }
+
+.work-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-nav);
+}
+
 /*! --------------SECTION3---------------- */
 
 .team {
