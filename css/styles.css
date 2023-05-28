@@ -11,6 +11,7 @@ body {
   --back-color: #ffffff;
   --back-second-color: #2e2f42;
   --color-footer: #f4f4fd;
+  --color-button: #404bbf;
 }
 
 /*! --------Header----------- */
@@ -45,7 +46,7 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
+  color: var(--color-button);
 }
 /*! --------------ADDRESS---------------- */
 .header-add {
@@ -61,7 +62,7 @@ body {
 
 .header-add-link:hover,
 .header-add-link:focus {
-  color: #404bbf;
+  color: var(--color-button);
 }
 
 /*! --------------HERO---------------- */
@@ -71,27 +72,26 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  font-style: normal;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--back-color);
 }
 
 .hero-bt {
-  background-color: #4d5ae5;
+  background-color: var(--text-logo);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--back-color);
   cursor: pointer;
 }
 
 .hero-bt:hover,
 .hero-bt:focus {
-  background-color: #404bbf;
+  background-color: var(--color-button);
 }
 
 /*! --------------SECTION1---------------- */
@@ -101,14 +101,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-nav);
 }
 
 .table-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
 
 /*! --------------SECTION2---------------- */
@@ -158,7 +156,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
 
 /*! --------------FOOTER---------------- */
@@ -176,7 +173,7 @@ body {
 }
 
 .footer-logo span {
-  color: #f4f4fd;
+  color: var(--color-footer);
 }
 
 .footer-text {
@@ -212,7 +209,7 @@ body {
 
 .folio-menu-link:hover,
 .folio-menu-link:focus {
-  color: #404bbf;
+  color: var(--color-button);
 }
 
 .folio-add {
@@ -228,7 +225,7 @@ body {
 
 .folio-add-link:hover,
 .folio-add-link:focus {
-  color: #404bbf;
+  color: var(--color-button);
 }
 
 /*! --------------PORTFOLIO FILTERS---------------- */
@@ -246,8 +243,8 @@ body {
 
 .menu-bt:hover,
 .menu-bt:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--back-color);
+  background-color: var(--color-button);
 }
 /*! --------------PORTFOLIO ROW---------------- */
 
